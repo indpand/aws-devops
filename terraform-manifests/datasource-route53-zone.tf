@@ -1,6 +1,6 @@
 # Get DNS information from AWS Route53
 data "aws_route53_zone" "mydomain" {
-  name         = "devopsincloud.com"
+  name         = "devopsinsl.com"
 }
 
 # Output MyDomain Zone ID
